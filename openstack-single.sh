@@ -1,14 +1,14 @@
 # openstacksinglenode-Openstack-single.sh
 Openstack_Version='2023.1'
-Openstack_VIP='172.90.0.201'
+Openstack_VIP='192.168.0.103'
 Internal_NIC_Name='ens192'
 External_NIC_Name='ens224'
 
 #Cloud network configuration 
 
 IP_VERSION=${IP_VERSION:-4}
-EXT_NET_CIDR='172.90.0.1/24'
-EXT_NET_RANGE='start=172.90.0.210,end=172.90.0.245'
+EXT_NET_CIDR='192.168.0.1/24'
+EXT_NET_RANGE='start=192.168.0.110,end=192.168.0.245'
 EXT_NET_GATEWAY='172.90.0.1'
 
 #opentack all in one deployment
